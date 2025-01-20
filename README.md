@@ -75,9 +75,6 @@ newgrp docker
 Docker Not Starting
 If Docker fails to start, check its service status:
 
-bash
-Copy
-Edit
 sudo systemctl status docker  
 Review the logs to identify and resolve any issues.
 ---
