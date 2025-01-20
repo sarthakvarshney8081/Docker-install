@@ -81,6 +81,7 @@ Review the logs to identify and resolve any issues.
 ---
 ## License 📄
 This script is open-source and available under the MIT License.
+
 ---
 ## Contribution 🤝
 Contributions are welcome! If you have suggestions or improvements, feel free to:
