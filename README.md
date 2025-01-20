@@ -28,12 +28,12 @@ Make sure you have:
    git clone https://github.com/sarthakvarshney8081/Docker-install.git
 
 ---   
-##Step 2: Navigate to the Directory
+## Step 2: Navigate to the Directory
 Move into the directory containing the script:
 
 
 cd Docker-install  
-Step 3: Run the Script
+## Step 3: Run the Script
 Make the script executable and run it with sudo:
 
 bash
