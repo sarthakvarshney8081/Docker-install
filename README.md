@@ -42,16 +42,16 @@ Edit
 chmod +x dockerinstallation.sh  
 sudo ./dockerinstallation.sh  
 
---
-Step 4: Verify the Installation
+---
+## Step 4: Verify the Installation
 Run the following commands to confirm that Docker is installed successfully:
 
-bash
-Copy
-Edit
+
 docker --version  
 sudo docker run hello-world  
-Script Workflow ⚙️
+
+---
+## Script Workflow ⚙️
 The script performs the following steps:
 
 Updates the system’s package index.
@@ -60,19 +60,17 @@ Adds Docker’s official GPG key and repository.
 Installs Docker Engine, Docker CLI, and container runtime.
 Configures Docker to allow non-root access.
 Enables and starts the Docker service.
-Troubleshooting 🔧
+
+---
+## Troubleshooting 🔧
 Permission Denied When Running Docker
 If you encounter a permission denied error while running Docker commands:
 
 Add your user to the docker group:
-bash
-Copy
-Edit
+
 sudo usermod -aG docker $USER  
 Log out and back in, or refresh the session using:
-bash
-Copy
-Edit
+
 newgrp docker  
 Docker Not Starting
 If Docker fails to start, check its service status:
@@ -82,11 +80,11 @@ Copy
 Edit
 sudo systemctl status docker  
 Review the logs to identify and resolve any issues.
-
-License 📄
+---
+## License 📄
 This script is open-source and available under the MIT License.
-
-Contribution 🤝
+---
+## Contribution 🤝
 Contributions are welcome! If you have suggestions or improvements, feel free to:
 
 Open an issue.
