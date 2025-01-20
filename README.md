@@ -25,13 +25,13 @@ Make sure you have:
 
 1. **Clone the Repository:**  
    ```bash  
-   git clone https://github.com/sarthakvarshney8081/Docker-install.git  
-Step 2: Navigate to the Directory
+   git clone https://github.com/sarthakvarshney8081/Docker-install.git
+
+---   
+##Step 2: Navigate to the Directory
 Move into the directory containing the script:
 
-bash
-Copy
-Edit
+
 cd Docker-install  
 Step 3: Run the Script
 Make the script executable and run it with sudo:
@@ -41,6 +41,8 @@ Copy
 Edit
 chmod +x dockerinstallation.sh  
 sudo ./dockerinstallation.sh  
+
+--
 Step 4: Verify the Installation
 Run the following commands to confirm that Docker is installed successfully:
 
