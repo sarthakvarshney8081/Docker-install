@@ -39,8 +39,8 @@ Make the script executable and run it with sudo:
 bash
 Copy
 Edit
-chmod +x dockerinstallation.sh  
-sudo ./dockerinstallation.sh  
+chmod +x docker.sh  
+sudo ./docker.sh  
 
 ---
 ## Step 4: Verify the Installation
