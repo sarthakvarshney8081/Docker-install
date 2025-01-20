@@ -77,6 +77,7 @@ If Docker fails to start, check its service status:
 
 sudo systemctl status docker  
 Review the logs to identify and resolve any issues.
+
 ---
 ## License 📄
 This script is open-source and available under the MIT License.
