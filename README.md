@@ -35,18 +35,17 @@ Move into the directory containing the script:
 cd Docker-install  
 ## Step 3: Run the Script
 Make the script executable and run it with sudo:
-
+```bash
     chmod +x docker.sh  
     sudo ./docker.sh  
-
+```
 ---
 ## Step 4: Verify the Installation
 Run the following commands to confirm that Docker is installed successfully:
-
-
-docker --version  
-sudo docker run hello-world  
-
+   ```bash
+   docker --version  
+   sudo docker run hello-world  
+   ```
 ---
 ## Script Workflow ⚙️
 The script performs the following steps:
