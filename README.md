@@ -67,12 +67,14 @@ Add your user to the docker group:
 sudo usermod -aG docker $USER
 ```
 Log out and back in, or refresh the session using:
-
-newgrp docker  
+```bash
+newgrp docker
+```
 Docker Not Starting
 If Docker fails to start, check its service status:
-
-sudo systemctl status docker  
+```bash
+sudo systemctl status docker
+```
 Review the logs to identify and resolve any issues.
 
 ---
@@ -83,9 +85,10 @@ This script is open-source and available under the MIT License.
 ## Contribution 🤝
 Contributions are welcome! If you have suggestions or improvements, feel free to:
 
-Open an issue.
-Submit a pull request.
-Connect with Me 🌐
+- Open an issue.
+- Submit a pull request.
+- Connect with Me 🌐
+  
 For any queries or feedback, you can reach me via:
 
 GitHub: Sarthak Varshney
