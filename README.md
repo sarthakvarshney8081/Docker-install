@@ -36,11 +36,8 @@ cd Docker-install
 ## Step 3: Run the Script
 Make the script executable and run it with sudo:
 
-bash
-Copy
-Edit
-chmod +x docker.sh  
-sudo ./docker.sh  
+    chmod +x docker.sh  
+    sudo ./docker.sh  
 
 ---
 ## Step 4: Verify the Installation
