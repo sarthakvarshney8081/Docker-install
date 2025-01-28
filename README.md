@@ -92,5 +92,6 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 For any queries or feedback, you can reach me via:
 
 GitHub: Sarthak Varshney
-Enjoy Seamless Docker Installations! 🐳🚀
-This script is designed to make Docker installations quick and hassle-free. Start your containerization journey today!
+- Enjoy Seamless Docker Installations! 🐳🚀
+- This script is designed to make Docker installations quick and hassle-free.
+- Start your containerization journey today!
