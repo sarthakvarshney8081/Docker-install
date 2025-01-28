@@ -63,8 +63,9 @@ Permission Denied When Running Docker
 If you encounter a permission denied error while running Docker commands:
 
 Add your user to the docker group:
-
-sudo usermod -aG docker $USER  
+ ```bash
+sudo usermod -aG docker $USER
+```
 Log out and back in, or refresh the session using:
 
 newgrp docker  
