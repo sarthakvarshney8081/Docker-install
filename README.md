@@ -50,12 +50,12 @@ Run the following commands to confirm that Docker is installed successfully:
 ## Script Workflow ⚙️
 The script performs the following steps:
 
-Updates the system’s package index.
-Installs essential dependencies.
-Adds Docker’s official GPG key and repository.
-Installs Docker Engine, Docker CLI, and container runtime.
-Configures Docker to allow non-root access.
-Enables and starts the Docker service.
+- Updates the system’s package index.
+- Installs essential dependencies.
+- Adds Docker’s official GPG key and repository.
+- Installs Docker Engine, Docker CLI, and container runtime.
+- Configures Docker to allow non-root access.
+- Enables and starts the Docker service.
 
 ---
 ## Troubleshooting 🔧
